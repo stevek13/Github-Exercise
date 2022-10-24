@@ -3,20 +3,23 @@
 //  Github Exercise
 //
 //  Created by Steve on 10/24/22.
-//
+//  Showing why to not use space in names when using github
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Image(systemName: "1.circle")
+                .resizable()
+                .scaledToFit()
+                
+            Text("Version.1.0")
+                .font(.largeTitle)
+                .fontWeight(.bold)
         }
         .padding()
-    }
+        .foregroundColor(.red)    }
 }
 
 struct ContentView_Previews: PreviewProvider {
