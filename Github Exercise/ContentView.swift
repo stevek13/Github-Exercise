@@ -19,7 +19,9 @@ struct ContentView: View {
                 .fontWeight(.bold)
         }
         .padding()
-        .foregroundColor(.mint)    }
+        .foregroundColor(.mint)
+        
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
